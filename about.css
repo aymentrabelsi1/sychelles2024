@@ -1,0 +1,102 @@
+
+
+#Intro-1{ margin: 11rem 0.6rem 0rem;}
+#Intro-1 p{background-color: rgb(188, 188, 188);padding: 30px;font-family: Georgia, 'Times New Roman', Times, serif;}
+
+#Title{
+    text-align: center;
+    background-color:rgba(40, 40, 40, 0.753);color: whitesmoke;}
+
+
+
+
+#intro-3 {display:flex;flex-wrap: wrap;align-items: center;
+    padding: 50px;
+    gap: 20px;background-color: rgba(127, 255, 212, 0.204);
+    justify-content: center;}
+#intro-3 div p{text-align: center;transition: 0.5s ease-in;
+border-radius: 6px;}
+#intro-3 div p:hover{color: rgb(255, 255, 255);
+    border-radius: 6px;cursor: pointer;
+    background-color: black;}
+#intro-3 div img{transition: 0.5s ease;cursor: pointer;border: 2px solid transparent;}
+
+#intro-3 div:hover img{
+    border: 2px solid rgb(0, 0, 0);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about-us-intro{margin: 4rem 0.6rem;display: flex;justify-content: space-around;
+    background-color: antiquewhite;flex-wrap: wrap;}
+
+    #about-us-intro p{text-align: center;font-size: 16px;}
+    .items h1{font-family: Georgia, 'Times New Roman', Times, serif;}
+
+    .items{border: 1px solid rgb(0, 0, 0);
+        margin:10px 10px;
+       ;
+        border-radius: 2px;
+        background-color: rgb(249, 241, 231);
+
+flex-grow: 1;
+        padding: 6px 1px;
+        text-align: center;}
+
+
+
+
+    #items-images{
+        border-radius: 8px;
+       height:16rem;
+       cursor: pointer;
+       overflow: hidden;
+        max-width: 24rem;
+        margin: 0 auto;
+        transition: 0.5s ease;
+        border: 2px solid green;}
+        #items-images:hover img{transform: scale(1.2);}
+
+    #items-images img{width: 100%;
+        transition: 0.5s ease;
+        object-fit: cover;
+        height: 100%;}
+
+
+
+
+    @media (min-width:250px) and (max-width:400px)
+    {
+        #about-us-intro{margin: 12rem 0.2rem;}
+        #about-us-intro p{font-size: 16px;}
+        #items-images{max-width: 16rem;height: 10rem;margin: 0px auto;}
+    }
+
+    @media (min-width:251px) and (max-width:600px)
+    {
+        #about-us-intro{margin: 12rem 0.2rem;}
+        #about-us-intro p{font-size: 18px;}
+        #items-images{max-width: 20rem;height: 14rem;margin: 0px auto;}
+    }
+    
+    @media (min-width:601px) and (max-width:1000px)
+    {
+        #about-us-intro{margin: 12rem 0.2rem;}
+        #about-us-intro p{font-size: 20px;}
+        #items-images{max-width: 30rem;height: 20rem;margin: 0px auto;}
+    }
